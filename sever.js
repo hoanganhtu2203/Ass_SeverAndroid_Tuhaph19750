@@ -7,7 +7,6 @@ app.use(express.static(__dirname+"/images"))
 const bodyparser = require('body-parser')
 const mongoose = require('mongoose')
 const url = 'mongodb+srv://hoanganhtu22032002:hoangtu22032002@cluster0.ubbzw6e.mongodb.net/dssanphams?retryWrites=true&w=majority'
-//const url = 'mongodb+srv://ToLeCuong:cuong2k32010@cluster0.t4dvo7u.mongodb.net/asmserver?retryWrites=true&w=majority'
 const userController = require('./controllers/controller')
 
 
